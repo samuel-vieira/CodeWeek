@@ -157,3 +157,50 @@
     padding: 1rem 0;
     background: linear-gradient(90deg, #5d02ff, #007cc4);
 }
+
+/* Player */
+
+.video {
+    height: 100vh;
+}
+
+.video__section {
+    height: inherit;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aula__titulo {
+    margin-bottom: 2rem;
+    color: white;
+}
+
+.player {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 80%;
+}
+
+.aulas {
+    width: 20%;
+}
+
+.aulas__lista__item {
+    margin: 1rem;
+}
+
+.aulas__lista__item a {
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    color: #ffc107;
+    font-size: 18px;
+}
+
+.aulas__lista__item a:hover {
+    color: #ffc107;
+    text-decoration: none;
+    opacity: 0.8;
+}
