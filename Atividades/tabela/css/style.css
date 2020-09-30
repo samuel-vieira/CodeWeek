@@ -1,0 +1,31 @@
+table {
+    border-collapse: collapse;
+    border: 1px solid #000000;
+}
+
+thead {
+    border: 1px solid #000000;
+}
+
+thead > tr, tfoot > tr {
+    background: blue;
+    color: white;
+}
+
+th {
+    padding: 0.8rem 1.2rem;
+}
+
+tr, td {
+    padding: 0.9rem 1.2rem;
+    border: 1px solid #000000;
+}
+
+tr:nth-child(odd):not(.classico){
+    background: lightblue;
+}
+
+td:first-child {
+    background: blue;
+    color: white;
+}
